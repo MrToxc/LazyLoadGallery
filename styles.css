@@ -75,11 +75,6 @@ main {
     border-radius: 8px;
 }
 
-.modal-content:hover {
-    transform: scale(1.02);
-    transition: 0.3s;
-}
-
 .close {
     position: absolute;
     top: 20px;
