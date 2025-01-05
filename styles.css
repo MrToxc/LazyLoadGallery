@@ -54,9 +54,9 @@ main {
     transform: scale(1.05);
 }
 
-/* Modal Styles */
+/* Modal Styles CHATGPT to co je ohledne rozkliknuti*/
 .modal {
-    display: none; /* Hidden by default */
+    display: none;
     position: fixed;
     z-index: 1000;
     left: 0;
@@ -67,14 +67,16 @@ main {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
+/*CHATGPT*/
 .modal-content {
     margin: auto;
     display: block;
     max-width: 90%;
     max-height: 80%;
     border-radius: 8px;
+    margin-top: 30px;
 }
-
+/*CHATGPT*/
 .close {
     position: absolute;
     top: 20px;
@@ -84,13 +86,13 @@ main {
     font-weight: bold;
     cursor: pointer;
 }
-
+/*CHATGPT*/
 .close:hover,
 .close:focus {
     color: #bbb;
 }
 
-#caption {
+.caption {
     text-align: center;
     color: #fff;
     font-size: 18px;
